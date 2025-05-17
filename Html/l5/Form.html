@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+      
+     <form action="/submit-here." >
+        
+        <label for="Username">Username :</label>
+
+        <input type="text" id="Username"  name="user_name"   placeholder="name" required="true">   <br>
+
+        <label for="password"> Password :</label>
+        <input  type="password" name="user_password" id="password" placeholder="password"><br> <hr>
+        
+        Birth Date : <input type="date" name="student_bday" id="bday"><br> <hr>
+
+        color : <input type="color"><br> <hr>
+        
+        File : <input type="file"><br> <hr>
+        
+      
+         
+        
+        <!-- 
+             *  "Name" attribute used as identifier for the form data .
+             *  "Value" attribute is default data which have been submitted .  
+                                                                         -->
+
+
+        Range : <input type="range" value="50%"><br> <hr>
+     
+
+        Button : <input type="button" value="click here"><br> <hr>
+
+        Submit : <input type="submit" value="Submit now"><br> <hr>
+       
+     <!-- Radio -->
+        <label for="boy"> Boy</label> 
+         <input type="radio" name="Nature" value="Boy" id="boy">
+
+           <br>
+
+       <label for="y_man"> Young Man </label> 
+         <input type="radio" name="Nature" value=" Young Man" id="y_man">
+           <br>
+       <label for="e_man">Exprienced Man</label>
+         <input type="radio" name="Nature" id="e_man">  <br> <hr>
+
+     <!-- Checkbox -->
+        <table border="1"> 
+           
+     <tr> 
+        <td>
+          <label for="html">Html</label>
+          <input type="checkbox" name="lang" id="html" value="html">  <br>
+      
+         <label for="css">Css</label>
+          <input type="checkbox" name="lang" id="css" value="css"> <br>
+          
+         <label for="js">Java Script</label>
+          <input type="checkbox" name="lang" id="js" value="Js"> <br> 
+        </td>
+     </tr>
+        </table>  
+
+     
+
+    <!-- Select -->
+         
+        <label for="country">Your country : </label>
+          <select name="country" id="country">
+            
+               <option value="India">India</option>
+               <option value="Nepal">Nepal</option>
+               <option value="Japan">Japan</option>
+               <option value="Korea">Korea</option>
+               <option value="Thailand">Thailand</option>
+          </select>
+           <hr>
+   
+      <!-- TextArea-->
+           
+           <textarea name="story" id="story" rows="10" cols="15"> Suggestion </textarea>
+
+
+
+     </form> 
+</body>
+</html>
